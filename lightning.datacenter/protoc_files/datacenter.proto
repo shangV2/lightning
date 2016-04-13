@@ -1,0 +1,43 @@
+
+
+package com.lightning.datacenter.trend.proto;
+
+option java_package = "com.lightning.datacenter.trend.proto";
+option java_outer_classname = "HotTrendData";
+
+message BPHotWebPage {
+	required string url = 1;
+	required bytes source = 2;
+	required bytes title = 3;
+	required string timestamp = 4;
+	required bytes content = 5;
+}
+
+message BPHotWebPageList {
+	repeated BPHotWebPage webpages = 1;
+}
+
+message BPHotWebEvent {
+	required bytes title = 1;
+	required string eventid = 2;
+	required int64 score = 3;
+}
+
+message BPHotWebEventList {
+	required string timestamp = 1;
+	repeated BPHotWebEvent events = 2;
+}
+
+// ---------------------------------
+message BPHotWordList {
+	required string timestamp = 1;
+	repeated string words = 2;
+}
+
+
+
+
+
+
+
+

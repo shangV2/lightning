@@ -1,0 +1,110 @@
+2014-09-06 22:52:47,006 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3847ca2a: display name [org.springframework.context.support.FileSystemXmlApplicationContext@3847ca2a]; startup date [Sat Sep 06 22:52:47 CST 2014]; root of context hierarchy
+2014-09-06 22:52:47,096 - Loading XML bean definitions from file [D:\workspace\Lightning\Lightning-2014-0728\Lightning\WebIndexer\conf\application_context.xml]
+2014-09-06 22:52:47,273 - Loading XML bean definitions from file [D:\workspace\Lightning\Lightning-2014-0728\Lightning\WebIndexer\conf\bean\bean.xml]
+2014-09-06 22:52:47,376 - Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@3847ca2a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@55da60c5
+2014-09-06 22:52:47,468 - Loading properties file from file [D:\workspace\Lightning\Lightning-2014-0728\Lightning\WebIndexer\conf\project.properties]
+2014-09-06 22:52:47,506 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55da60c5: defining beans [propertyConfigurer,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,dataSourceFactory,indexerConfiguration,serverConfiguration,appController]; root of factory hierarchy
+2014-09-06 22:53:06,823 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@7129a843: display name [org.springframework.context.support.FileSystemXmlApplicationContext@7129a843]; startup date [Sat Sep 06 22:53:06 CST 2014]; root of context hierarchy
+2014-09-06 22:53:06,913 - Loading XML bean definitions from file [D:\workspace\Lightning\Lightning-2014-0728\Lightning\WebIndexer\conf\application_context.xml]
+2014-09-06 22:53:07,078 - Loading XML bean definitions from file [D:\workspace\Lightning\Lightning-2014-0728\Lightning\WebIndexer\conf\bean\bean.xml]
+2014-09-06 22:53:07,167 - Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@7129a843]: org.springframework.beans.factory.support.DefaultListableBeanFactory@55da60c5
+2014-09-06 22:53:07,251 - Loading properties file from file [D:\workspace\Lightning\Lightning-2014-0728\Lightning\WebIndexer\conf\project.properties]
+2014-09-06 22:53:07,285 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55da60c5: defining beans [propertyConfigurer,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,dataSourceFactory,indexerConfiguration,serverConfiguration,appController]; root of factory hierarchy
+2014-09-06 22:53:19,434 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:53:29,442 - swap index success
+2014-09-06 22:53:39,988 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:53:50,000 - swap index success
+2014-09-06 22:54:00,773 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:54:10,782 - swap index success
+2014-09-06 22:54:21,069 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:54:31,077 - swap index success
+2014-09-06 22:54:41,334 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:54:51,340 - swap index success
+2014-09-06 22:55:01,544 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:55:11,550 - swap index success
+2014-09-06 22:55:21,844 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:55:31,853 - swap index success
+2014-09-06 22:55:42,093 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:55:52,100 - swap index success
+2014-09-06 22:56:02,367 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:56:12,373 - swap index success
+2014-09-06 22:56:22,637 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:56:32,650 - swap index success
+2014-09-06 22:56:42,892 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:56:52,897 - swap index success
+2014-09-06 22:57:03,131 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:57:13,139 - swap index success
+2014-09-06 22:57:23,435 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:57:33,443 - swap index success
+2014-09-06 22:57:43,706 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:57:53,715 - swap index success
+2014-09-06 22:58:03,933 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:58:13,938 - swap index success
+2014-09-06 22:58:24,254 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:58:34,261 - swap index success
+2014-09-06 22:58:44,634 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:58:54,641 - swap index success
+2014-09-06 22:59:05,016 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:59:15,022 - swap index success
+2014-09-06 22:59:25,314 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:59:35,320 - swap index success
+2014-09-06 22:59:45,632 - write index [D:\test\submit\fqdata] success
+2014-09-06 22:59:55,637 - swap index success
+2014-09-06 23:00:05,976 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:00:15,981 - swap index success
+2014-09-06 23:00:26,346 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:00:36,353 - swap index success
+2014-09-06 23:00:46,703 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:00:56,708 - swap index success
+2014-09-06 23:01:07,255 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:01:17,267 - swap index success
+2014-09-06 23:01:27,576 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:01:37,582 - swap index success
+2014-09-06 23:01:47,855 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:01:57,860 - swap index success
+2014-09-06 23:02:08,171 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:02:18,182 - swap index success
+2014-09-06 23:02:28,623 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:02:38,627 - swap index success
+2014-09-06 23:02:48,912 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:02:58,918 - swap index success
+2014-09-06 23:03:09,212 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:03:19,217 - swap index success
+2014-09-06 23:03:29,505 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:03:39,512 - swap index success
+2014-09-06 23:03:49,884 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:03:59,889 - swap index success
+2014-09-06 23:04:10,176 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:04:20,184 - swap index success
+2014-09-06 23:04:30,506 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:04:40,511 - swap index success
+2014-09-06 23:04:50,784 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:05:00,790 - swap index success
+2014-09-06 23:05:11,138 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:05:21,142 - swap index success
+2014-09-06 23:05:31,444 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:05:41,449 - swap index success
+2014-09-06 23:05:51,710 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:06:01,716 - swap index success
+2014-09-06 23:06:12,021 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:06:22,026 - swap index success
+2014-09-06 23:06:32,306 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:06:42,310 - swap index success
+2014-09-06 23:06:52,625 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:07:02,631 - swap index success
+2014-09-06 23:07:12,910 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:07:22,916 - swap index success
+2014-09-06 23:07:33,218 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:07:43,224 - swap index success
+2014-09-06 23:07:53,518 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:08:03,524 - swap index success
+2014-09-06 23:08:13,826 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:08:23,830 - swap index success
+2014-09-06 23:08:34,121 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:08:44,125 - swap index success
+2014-09-06 23:08:54,433 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:09:04,438 - swap index success
+2014-09-06 23:09:14,734 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:09:24,741 - swap index success
+2014-09-06 23:09:35,056 - write index [D:\test\submit\fqdata] success
+2014-09-06 23:09:45,061 - swap index success

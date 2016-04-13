@@ -1,0 +1,15 @@
+2014-08-15 16:41:42,965 [] INFO  rpc - [logid: 1407022176433] [request: {WMSCrawlerWebsite(website:baidu, websiteType:WMS_WEBSITE_ZH_CN, crawlerType:WMS_WEBSITE_CRAWLER_STAND_ALONE, urlType:WMS_WEBSITE_URL_RULE_HIT, urlRule:{"con_page_expression":"content_url_exp","host_expression":"host_url_exp","nav_page_expression":"navigation_url_exp"}, contentType:WMS_WEBSITE_CONTENT_RULE_TEMPLATE_HPATH, contentRule:{"content_expression":"content_content_exp","time_expression":"time_content_exp","title_expression":"title_content_exp"}, seeds:[www.baidu.com, www.google.com], crawlerNum:1000, crawlerSchedule:0)}][respose: {success_amount: 1}]
+2014-08-15 16:41:56,350 [] INFO  rpc - [logid: 1407022158558] [request: {pageno: 0, pagesize: 10}][response: {totalNum: 0, website_crawler_num: 1}]
+2014-08-15 16:45:08,463 [] INFO  rpc - [logid: 1407022109579] [request: {pageno: 0, pagesize: 10}][response: {totalNum: 0, website_crawler_num: 1}]
+2014-08-15 16:45:34,166 [] INFO  rpc - [logid: 1407022082470] [request: {pageno: 0, pagesize: 10}][response: {totalNum: 0, website_crawler_num: 1}]
+2014-08-15 16:46:32,566 [] INFO  rpc - [logid: 1407021352744] [request: {pageno: 0, pagesize: 10}][response: {totalNum: 0, website_crawler_num: 1}]
+2014-08-15 16:47:14,590 [] INFO  rpc - [logid: 1406671345255] [request: {pageno: 0, pagesize: 10}][response: {totalNum: 0, website_crawler_num: 1}]
+2014-08-15 16:47:32,676 [] INFO  rpc - 
+2014-08-15 16:49:23,243 [] INFO  rpc - [logid: 1406942632290] [request: {WMSCrawlerWebsite(website:baidu, websiteType:WMS_WEBSITE_ZH_CN, crawlerType:WMS_WEBSITE_CRAWLER_STAND_ALONE, urlType:WMS_WEBSITE_URL_RULE_HIT, urlRule:{"con_page_expression":"content_url_exp","host_expression":"host_url_exp","nav_page_expression":"navigation_url_exp"}, contentType:WMS_WEBSITE_CONTENT_RULE_TEMPLATE_HPATH, contentRule:{"content_expression":"content_content_exp","time_expression":"time_content_exp","title_expression":"title_content_exp"}, seeds:[www.baidu.com, www.google.com], crawlerNum:1000, crawlerSchedule:0)}][respose: {success_amount: 1}]
+2014-08-15 16:49:31,071 [] INFO  rpc - [logid: 1407514297797] [request: {pageno: 0, pagesize: 10}][response: {totalNum: 0, website_crawler_num: 1}]
+2014-08-15 16:49:42,022 [] INFO  rpc - 
+2014-08-15 16:50:50,202 [] INFO  rpc - [logid: 1408340261341] [request: {pageno: 0, pagesize: 10}][response: {totalNum: 0, website_crawler_num: 1}]
+2014-08-15 16:51:15,875 [] INFO  rpc - 
+2014-08-15 16:51:38,864 [] INFO  rpc - [logid: 1408498069829] [request: {pageno: 0, pagesize: 10}][response: {totalNum: 0, website_crawler_num: 1}]
+2014-08-15 16:54:34,727 [] INFO  rpc - [logid: 1408501521657] [request: {pageno: 0, pagesize: 10}][response: {totalNum: 0, website_crawler_num: 1}]
+2014-08-15 16:54:35,174 [] INFO  rpc - 

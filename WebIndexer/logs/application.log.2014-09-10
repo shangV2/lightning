@@ -1,0 +1,553 @@
+2014-09-10 22:26:57,062 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@7129a843: display name [org.springframework.context.support.FileSystemXmlApplicationContext@7129a843]; startup date [Wed Sep 10 22:26:57 CST 2014]; root of context hierarchy
+2014-09-10 22:26:57,214 - Loading XML bean definitions from file [D:\workspace\Lightning\Lightning-2014-0728\Lightning\WebIndexer\conf\application_context.xml]
+2014-09-10 22:26:57,437 - Loading XML bean definitions from file [D:\workspace\Lightning\Lightning-2014-0728\Lightning\WebIndexer\conf\bean\bean.xml]
+2014-09-10 22:26:57,571 - Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@7129a843]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7407518b
+2014-09-10 22:26:57,683 - Loading properties file from file [D:\workspace\Lightning\Lightning-2014-0728\Lightning\WebIndexer\conf\project.properties]
+2014-09-10 22:26:57,725 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7407518b: defining beans [propertyConfigurer,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,dataSourceFactory,indexerConfiguration,serverConfiguration,appController]; root of factory hierarchy
+2014-09-10 22:27:10,773 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:27:20,786 - swap index success
+2014-09-10 22:27:31,679 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:27:41,688 - swap index success
+2014-09-10 22:27:52,155 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:28:02,205 - swap index success
+2014-09-10 22:28:12,671 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:28:22,679 - swap index success
+2014-09-10 22:28:33,698 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:28:43,710 - swap index success
+2014-09-10 22:28:54,113 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:29:04,121 - swap index success
+2014-09-10 22:29:14,578 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:29:24,589 - swap index success
+2014-09-10 22:29:35,025 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:29:45,033 - swap index success
+2014-09-10 22:29:55,735 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:30:05,741 - swap index success
+2014-09-10 22:30:16,157 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:30:26,177 - swap index success
+2014-09-10 22:30:36,606 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:30:46,616 - swap index success
+2014-09-10 22:30:57,087 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:31:07,100 - swap index success
+2014-09-10 22:31:17,448 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:31:27,455 - swap index success
+2014-09-10 22:31:37,805 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:31:47,812 - swap index success
+2014-09-10 22:31:58,160 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:32:08,202 - swap index success
+2014-09-10 22:32:18,563 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:32:28,568 - swap index success
+2014-09-10 22:32:38,898 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:32:48,903 - swap index success
+2014-09-10 22:32:59,311 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:33:09,320 - swap index success
+2014-09-10 22:33:19,636 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:33:29,643 - swap index success
+2014-09-10 22:33:40,000 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:33:50,009 - swap index success
+2014-09-10 22:34:00,562 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:34:10,568 - swap index success
+2014-09-10 22:34:20,887 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:34:30,893 - swap index success
+2014-09-10 22:34:41,219 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:34:51,225 - swap index success
+2014-09-10 22:35:01,553 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:35:11,560 - swap index success
+2014-09-10 22:35:21,905 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:35:31,911 - swap index success
+2014-09-10 22:35:42,315 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:35:52,321 - swap index success
+2014-09-10 22:36:02,639 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:36:12,646 - swap index success
+2014-09-10 22:36:22,970 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:36:32,976 - swap index success
+2014-09-10 22:36:43,290 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:36:53,298 - swap index success
+2014-09-10 22:37:03,727 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:37:13,734 - swap index success
+2014-09-10 22:37:24,217 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:37:34,223 - swap index success
+2014-09-10 22:37:44,539 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:37:54,546 - swap index success
+2014-09-10 22:38:04,926 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:38:14,933 - swap index success
+2014-09-10 22:38:25,318 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:38:35,325 - swap index success
+2014-09-10 22:38:45,725 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:38:55,736 - swap index success
+2014-09-10 22:39:06,325 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:39:16,332 - swap index success
+2014-09-10 22:39:26,769 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:39:36,775 - swap index success
+2014-09-10 22:39:47,106 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:39:57,113 - swap index success
+2014-09-10 22:40:07,464 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:40:17,471 - swap index success
+2014-09-10 22:40:27,903 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:40:37,912 - swap index success
+2014-09-10 22:40:48,268 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:40:58,277 - swap index success
+2014-09-10 22:41:08,646 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:41:18,653 - swap index success
+2014-09-10 22:41:29,231 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:41:39,236 - swap index success
+2014-09-10 22:41:49,716 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:41:59,722 - swap index success
+2014-09-10 22:42:10,137 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:42:20,145 - swap index success
+2014-09-10 22:42:30,507 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:42:40,514 - swap index success
+2014-09-10 22:42:51,045 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:43:01,053 - swap index success
+2014-09-10 22:43:11,484 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:43:21,491 - swap index success
+2014-09-10 22:43:31,910 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:43:41,920 - swap index success
+2014-09-10 22:43:52,369 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:44:02,379 - swap index success
+2014-09-10 22:44:12,667 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:44:22,673 - swap index success
+2014-09-10 22:44:33,046 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:44:43,053 - swap index success
+2014-09-10 22:44:53,596 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:45:03,608 - swap index success
+2014-09-10 22:45:14,043 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:45:24,050 - swap index success
+2014-09-10 22:45:34,390 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:45:44,397 - swap index success
+2014-09-10 22:45:54,703 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:46:04,709 - swap index success
+2014-09-10 22:46:15,022 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:46:25,031 - swap index success
+2014-09-10 22:46:35,364 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:46:45,370 - swap index success
+2014-09-10 22:46:55,700 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:47:05,707 - swap index success
+2014-09-10 22:47:16,006 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:47:26,012 - swap index success
+2014-09-10 22:47:36,462 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:47:46,469 - swap index success
+2014-09-10 22:47:56,806 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:48:06,813 - swap index success
+2014-09-10 22:48:17,121 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:48:27,128 - swap index success
+2014-09-10 22:48:37,484 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:48:47,492 - swap index success
+2014-09-10 22:48:57,864 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:49:07,869 - swap index success
+2014-09-10 22:49:18,194 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:49:28,201 - swap index success
+2014-09-10 22:49:38,487 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:49:48,491 - swap index success
+2014-09-10 22:49:58,780 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:50:08,785 - swap index success
+2014-09-10 22:50:19,060 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:50:29,066 - swap index success
+2014-09-10 22:50:39,387 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:50:49,395 - swap index success
+2014-09-10 22:50:59,690 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:51:09,697 - swap index success
+2014-09-10 22:51:20,004 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:51:30,009 - swap index success
+2014-09-10 22:51:40,307 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:51:50,313 - swap index success
+2014-09-10 22:52:00,605 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:52:10,611 - swap index success
+2014-09-10 22:52:21,304 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:52:31,311 - swap index success
+2014-09-10 22:52:41,601 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:52:51,605 - swap index success
+2014-09-10 22:53:01,961 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:53:11,969 - swap index success
+2014-09-10 22:53:22,394 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:53:32,399 - swap index success
+2014-09-10 22:53:42,671 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:53:52,675 - swap index success
+2014-09-10 22:54:02,973 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:54:12,979 - swap index success
+2014-09-10 22:54:23,331 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:54:33,335 - swap index success
+2014-09-10 22:54:43,677 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:54:53,682 - swap index success
+2014-09-10 22:55:03,995 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:55:14,000 - swap index success
+2014-09-10 22:55:24,428 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:55:34,435 - swap index success
+2014-09-10 22:55:44,710 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:55:54,716 - swap index success
+2014-09-10 22:56:05,026 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:56:15,030 - swap index success
+2014-09-10 22:56:25,362 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:56:35,369 - swap index success
+2014-09-10 22:56:45,684 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:56:55,689 - swap index success
+2014-09-10 22:57:05,982 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:57:15,988 - swap index success
+2014-09-10 22:57:26,340 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:57:36,347 - swap index success
+2014-09-10 22:57:46,652 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:57:56,658 - swap index success
+2014-09-10 22:58:07,012 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:58:17,018 - swap index success
+2014-09-10 22:58:27,321 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:58:37,325 - swap index success
+2014-09-10 22:58:47,590 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:58:57,596 - swap index success
+2014-09-10 22:59:07,928 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:59:17,934 - swap index success
+2014-09-10 22:59:28,335 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:59:38,342 - swap index success
+2014-09-10 22:59:48,629 - write index [D:\test\submit\fqdata] success
+2014-09-10 22:59:58,635 - swap index success
+2014-09-10 23:00:08,947 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:00:18,954 - swap index success
+2014-09-10 23:00:29,312 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:00:39,317 - swap index success
+2014-09-10 23:00:49,720 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:00:59,730 - swap index success
+2014-09-10 23:01:10,264 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:01:20,271 - swap index success
+2014-09-10 23:01:30,574 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:01:40,579 - swap index success
+2014-09-10 23:01:50,858 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:02:00,862 - swap index success
+2014-09-10 23:02:11,319 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:02:21,327 - swap index success
+2014-09-10 23:02:31,611 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:02:41,617 - swap index success
+2014-09-10 23:02:51,924 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:03:01,930 - swap index success
+2014-09-10 23:03:12,208 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:03:22,222 - swap index success
+2014-09-10 23:03:32,698 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:03:42,706 - swap index success
+2014-09-10 23:03:53,122 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:04:03,128 - swap index success
+2014-09-10 23:04:13,470 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:04:23,475 - swap index success
+2014-09-10 23:04:33,809 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:04:43,813 - swap index success
+2014-09-10 23:04:54,173 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:05:04,177 - swap index success
+2014-09-10 23:05:14,506 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:05:24,510 - swap index success
+2014-09-10 23:05:34,788 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:05:44,793 - swap index success
+2014-09-10 23:05:55,101 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:06:05,108 - swap index success
+2014-09-10 23:06:15,651 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:06:25,658 - swap index success
+2014-09-10 23:06:35,993 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:06:45,999 - swap index success
+2014-09-10 23:06:56,326 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:07:06,332 - swap index success
+2014-09-10 23:07:16,752 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:07:26,757 - swap index success
+2014-09-10 23:07:37,090 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:07:47,097 - swap index success
+2014-09-10 23:07:57,441 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:08:07,446 - swap index success
+2014-09-10 23:08:17,766 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:08:27,770 - swap index success
+2014-09-10 23:08:38,064 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:08:48,069 - swap index success
+2014-09-10 23:08:58,433 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:09:08,439 - swap index success
+2014-09-10 23:09:18,853 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:09:28,859 - swap index success
+2014-09-10 23:09:39,184 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:09:49,190 - swap index success
+2014-09-10 23:09:59,525 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:10:09,530 - swap index success
+2014-09-10 23:10:19,936 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:10:29,944 - swap index success
+2014-09-10 23:10:40,234 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:10:50,240 - swap index success
+2014-09-10 23:11:00,570 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:11:10,576 - swap index success
+2014-09-10 23:11:20,900 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:11:30,905 - swap index success
+2014-09-10 23:11:41,321 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:11:51,330 - swap index success
+2014-09-10 23:12:01,620 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:12:11,654 - swap index success
+2014-09-10 23:12:21,983 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:12:31,987 - swap index success
+2014-09-10 23:12:42,427 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:12:52,433 - swap index success
+2014-09-10 23:13:02,853 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:13:12,860 - swap index success
+2014-09-10 23:13:23,128 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:13:33,135 - swap index success
+2014-09-10 23:13:43,436 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:13:53,441 - swap index success
+2014-09-10 23:14:03,727 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:14:13,731 - swap index success
+2014-09-10 23:14:24,052 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:14:34,060 - swap index success
+2014-09-10 23:14:44,363 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:14:54,371 - swap index success
+2014-09-10 23:15:04,691 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:15:14,698 - swap index success
+2014-09-10 23:15:25,072 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:15:35,079 - swap index success
+2014-09-10 23:15:45,431 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:15:55,437 - swap index success
+2014-09-10 23:16:05,762 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:16:15,768 - swap index success
+2014-09-10 23:16:26,258 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:16:36,263 - swap index success
+2014-09-10 23:16:46,550 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:16:56,554 - swap index success
+2014-09-10 23:17:06,839 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:17:16,844 - swap index success
+2014-09-10 23:17:27,198 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:17:37,203 - swap index success
+2014-09-10 23:17:47,546 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:17:57,551 - swap index success
+2014-09-10 23:18:07,894 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:18:17,902 - swap index success
+2014-09-10 23:18:28,194 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:18:38,200 - swap index success
+2014-09-10 23:18:48,517 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:18:58,522 - swap index success
+2014-09-10 23:19:08,806 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:19:18,811 - swap index success
+2014-09-10 23:19:29,087 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:19:39,091 - swap index success
+2014-09-10 23:19:49,438 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:19:59,443 - swap index success
+2014-09-10 23:20:09,723 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:20:19,727 - swap index success
+2014-09-10 23:20:30,012 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:20:40,017 - swap index success
+2014-09-10 23:20:50,341 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:21:00,347 - swap index success
+2014-09-10 23:21:10,636 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:21:20,640 - swap index success
+2014-09-10 23:21:30,928 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:21:40,933 - swap index success
+2014-09-10 23:21:51,233 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:22:01,238 - swap index success
+2014-09-10 23:22:11,598 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:22:21,605 - swap index success
+2014-09-10 23:22:31,893 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:22:41,897 - swap index success
+2014-09-10 23:22:52,178 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:23:02,184 - swap index success
+2014-09-10 23:23:12,466 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:23:22,471 - swap index success
+2014-09-10 23:23:32,762 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:23:42,767 - swap index success
+2014-09-10 23:23:53,066 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:24:03,072 - swap index success
+2014-09-10 23:24:13,397 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:24:23,402 - swap index success
+2014-09-10 23:24:33,745 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:24:43,750 - swap index success
+2014-09-10 23:24:54,017 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:25:04,022 - swap index success
+2014-09-10 23:25:14,344 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:25:24,348 - swap index success
+2014-09-10 23:25:34,632 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:25:44,639 - swap index success
+2014-09-10 23:25:55,175 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:26:05,184 - swap index success
+2014-09-10 23:26:15,504 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:26:25,510 - swap index success
+2014-09-10 23:26:35,815 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:26:45,821 - swap index success
+2014-09-10 23:26:56,546 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:27:06,551 - swap index success
+2014-09-10 23:27:16,863 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:27:26,869 - swap index success
+2014-09-10 23:27:37,164 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:27:47,170 - swap index success
+2014-09-10 23:27:57,501 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:28:07,506 - swap index success
+2014-09-10 23:28:17,793 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:28:27,800 - swap index success
+2014-09-10 23:28:38,198 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:28:48,203 - swap index success
+2014-09-10 23:28:58,525 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:29:08,529 - swap index success
+2014-09-10 23:29:18,832 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:29:28,837 - swap index success
+2014-09-10 23:29:39,158 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:29:49,164 - swap index success
+2014-09-10 23:29:59,501 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:30:09,505 - swap index success
+2014-09-10 23:30:19,838 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:30:29,844 - swap index success
+2014-09-10 23:30:40,137 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:30:50,142 - swap index success
+2014-09-10 23:31:00,455 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:31:10,460 - swap index success
+2014-09-10 23:31:20,760 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:31:30,765 - swap index success
+2014-09-10 23:31:41,140 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:31:51,146 - swap index success
+2014-09-10 23:32:01,611 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:32:11,619 - swap index success
+2014-09-10 23:32:21,915 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:32:31,924 - swap index success
+2014-09-10 23:32:42,224 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:32:52,230 - swap index success
+2014-09-10 23:33:02,540 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:33:12,545 - swap index success
+2014-09-10 23:33:22,979 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:33:32,986 - swap index success
+2014-09-10 23:33:43,328 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:33:53,333 - swap index success
+2014-09-10 23:34:03,672 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:34:13,677 - swap index success
+2014-09-10 23:34:24,046 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:34:34,057 - swap index success
+2014-09-10 23:34:44,526 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:34:54,534 - swap index success
+2014-09-10 23:35:04,911 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:35:14,936 - swap index success
+2014-09-10 23:35:25,345 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:35:35,351 - swap index success
+2014-09-10 23:35:45,643 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:35:55,650 - swap index success
+2014-09-10 23:36:06,112 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:36:16,123 - swap index success
+2014-09-10 23:36:26,486 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:36:36,492 - swap index success
+2014-09-10 23:36:46,869 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:36:56,874 - swap index success
+2014-09-10 23:37:07,349 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:37:17,354 - swap index success
+2014-09-10 23:37:27,625 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:37:37,630 - swap index success
+2014-09-10 23:37:47,922 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:37:57,926 - swap index success
+2014-09-10 23:38:08,282 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:38:18,289 - swap index success
+2014-09-10 23:38:28,554 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:38:38,560 - swap index success
+2014-09-10 23:38:48,912 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:38:58,919 - swap index success
+2014-09-10 23:39:09,236 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:39:19,262 - swap index success
+2014-09-10 23:39:29,685 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:39:39,692 - swap index success
+2014-09-10 23:39:49,985 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:39:59,990 - swap index success
+2014-09-10 23:40:10,496 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:40:20,502 - swap index success
+2014-09-10 23:40:30,786 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:40:40,792 - swap index success
+2014-09-10 23:40:51,090 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:41:01,095 - swap index success
+2014-09-10 23:41:11,842 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:41:21,850 - swap index success
+2014-09-10 23:41:32,376 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:41:42,381 - swap index success
+2014-09-10 23:41:53,090 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:42:03,098 - swap index success
+2014-09-10 23:42:13,621 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:42:23,630 - swap index success
+2014-09-10 23:42:34,125 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:42:44,133 - swap index success
+2014-09-10 23:42:54,739 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:43:04,744 - swap index success
+2014-09-10 23:43:15,081 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:43:25,087 - swap index success
+2014-09-10 23:43:35,643 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:43:45,648 - swap index success
+2014-09-10 23:43:56,223 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:44:06,232 - swap index success
+2014-09-10 23:44:16,542 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:44:26,548 - swap index success
+2014-09-10 23:44:37,015 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:44:47,028 - swap index success
+2014-09-10 23:44:57,616 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:45:07,621 - swap index success
+2014-09-10 23:45:18,069 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:45:28,079 - swap index success
+2014-09-10 23:45:38,600 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:45:48,606 - swap index success
+2014-09-10 23:45:58,983 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:46:08,988 - swap index success
+2014-09-10 23:46:19,268 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:46:29,274 - swap index success
+2014-09-10 23:46:39,614 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:46:49,618 - swap index success
+2014-09-10 23:46:59,896 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:47:09,902 - swap index success
+2014-09-10 23:47:20,405 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:47:30,411 - swap index success
+2014-09-10 23:47:40,696 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:47:50,702 - swap index success
+2014-09-10 23:48:00,972 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:48:10,978 - swap index success
+2014-09-10 23:48:21,260 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:48:31,266 - swap index success
+2014-09-10 23:48:41,620 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:48:51,626 - swap index success
+2014-09-10 23:49:01,910 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:49:11,916 - swap index success
+2014-09-10 23:49:22,306 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:49:32,313 - swap index success
+2014-09-10 23:49:42,635 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:49:52,642 - swap index success
+2014-09-10 23:50:02,924 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:50:12,929 - swap index success
+2014-09-10 23:50:23,435 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:50:33,448 - swap index success
+2014-09-10 23:50:43,757 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:50:53,762 - swap index success
+2014-09-10 23:51:04,071 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:51:14,077 - swap index success
+2014-09-10 23:51:24,667 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:51:34,674 - swap index success
+2014-09-10 23:51:44,997 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:51:55,004 - swap index success
+2014-09-10 23:52:05,320 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:52:15,329 - swap index success
+2014-09-10 23:52:25,617 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:52:35,623 - swap index success
+2014-09-10 23:52:45,917 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:52:55,923 - swap index success
+2014-09-10 23:53:06,367 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:53:16,375 - swap index success
+2014-09-10 23:53:26,684 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:53:36,691 - swap index success
+2014-09-10 23:53:46,970 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:53:56,975 - swap index success
+2014-09-10 23:54:07,349 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:54:17,356 - swap index success
+2014-09-10 23:54:27,663 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:54:37,668 - swap index success
+2014-09-10 23:54:48,769 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:54:58,775 - swap index success
+2014-09-10 23:55:09,281 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:55:19,294 - swap index success
+2014-09-10 23:55:29,601 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:55:39,607 - swap index success
+2014-09-10 23:55:49,907 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:55:59,912 - swap index success
+2014-09-10 23:56:10,276 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:56:20,284 - swap index success
+2014-09-10 23:56:30,721 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:56:40,730 - swap index success
+2014-09-10 23:56:51,072 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:57:01,077 - swap index success
+2014-09-10 23:57:11,409 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:57:21,414 - swap index success
+2014-09-10 23:57:31,767 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:57:41,772 - swap index success
+2014-09-10 23:57:52,098 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:58:02,104 - swap index success
+2014-09-10 23:58:12,476 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:58:22,482 - swap index success
+2014-09-10 23:58:32,780 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:58:42,785 - swap index success
+2014-09-10 23:58:53,123 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:59:03,128 - swap index success
+2014-09-10 23:59:13,546 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:59:23,550 - swap index success
+2014-09-10 23:59:33,879 - write index [D:\test\submit\fqdata] success
+2014-09-10 23:59:43,884 - swap index success
+2014-09-10 23:59:54,249 - write index [D:\test\submit\fqdata] success

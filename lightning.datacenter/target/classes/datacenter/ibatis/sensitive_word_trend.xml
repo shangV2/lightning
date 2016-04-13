@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="SensitiveWordTrend" >
+
+	<typeAlias alias="SensitiveWordTrend" type="com.lightning.datacenter.word.model.SensitiveWordTrendDO" />
+	
+	<resultMap id="SensitiveWordTrendResultMap" class="SensitiveWordTrend">
+		<result property="id" column="id" />
+		<result property="word" column="word" />
+		<result property="type" column="type" />
+		<result property="timestamp" column="timestamp" />
+		<result property="value" column="value" />
+	</resultMap>
+	
+	<insert id="addWordTrend" parameterClass="SensitiveWordTrend">
+		<![CDATA[
+			INSERT INTO tb_sensitive_trend (word, type, timestamp, value) 
+			VALUES(#word#, #type#, #timestamp#, #value#)
+		]]>
+	</insert>		
+	
+	<select id="existWordTrend" parameterClass="Map" resultClass="java.lang.Integer">
+		<![CDATA[
+			SELECT 1 FROM tb_sensitive_trend
+			WHERE word = #word# AND type = #type# AND timestamp = #timestamp#
+			LIMIT 1
+		]]>
+	</select>	
+		
+	<update id="updateWordTrend" parameterClass="Map" >
+		<![CDATA[
+			UPDATE tb_sensitive_trend
+			SET value = value + #delta#
+			WHERE word = #word# AND type = #type# AND timestamp = #timestamp#
+		]]>
+	</update>	
+		
+	<select id="queryWordTrends" parameterClass="Map" resultClass="SensitiveWordTrend">
+		<![CDATA[
+			SELECT * FROM tb_sensitive_trend
+			WHERE word = #word# AND type = #type# AND timestamp >= #start# AND timestamp <= #end#
+			ORDER BY timestamp ASC 
+		]]>
+	</select>
+		
+</sqlMap>

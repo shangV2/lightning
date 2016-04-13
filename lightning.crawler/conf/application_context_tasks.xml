@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd  
+    http://www.springframework.org/schema/context   
+    http://www.springframework.org/schema/context/spring-context-2.5.xsd  
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd  
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>conf/project.properties</value>
+			</list>
+		</property>
+		<property name="fileEncoding">
+			<value>UTF-8</value>
+		</property>
+	</bean>
+
+	<!-- <import resource="classpath*:bean/bean.xml" /> -->
+	<bean id="cnxjCrawlerTask" class="com.zhitianweilai.qing.crawler.task.WebCrawlerTask">
+		<property name="website">
+			<value>chinaxinjiang</value>
+		</property>
+		<property name="language">
+			<value>CN.zh</value>
+		</property>
+		<property name="seedUrl">
+			<value>http://www.chinaxinjiang.cn/index.htm</value>
+		</property>
+		<property name="hostExpression">
+			<value>www\.chinaxinjiang\.cn</value>
+		</property>
+		<property name="navPageExpression">
+			<value>.*index\.htm$</value>
+		</property>
+		<property name="conPageExpression">
+			<value>(\d+)_(\d+)\.htm$</value>
+		</property>
+		<property name="titleExpression">
+			<value><![CDATA[<td id="p_biaoti" />]]></value>
+		</property>
+		<property name="contentExpression">
+			<value><![CDATA[<td id="p_zhengwen" />]]></value>
+		</property>
+		<property name="timeExpression">
+			<value><![CDATA[<td id="p_laiyuan" />]]></value>
+		</property>
+		<property name="pageMaxLimit">
+			<value>5000</value>
+		</property>
+	</bean>
+
+	<bean id="iyaxinCrawlerTask" class="com.zhitianweilai.qing.crawler.task.WebCrawlerTask">
+		<property name="website">
+			<value>iyaxin</value>
+		</property>
+		<property name="language">
+			<value>CN.zh</value>
+		</property>
+		<property name="seedUrl">
+			<value>http://www.iyaxin.com/</value>
+		</property>
+		<property name="hostExpression">
+			<value>[a-z]*\.iyaxin\.com</value>
+		</property>
+		<property name="navPageExpression">
+			<value>node_(\d+)\.htm$</value>
+		</property>
+		<property name="conPageExpression">
+			<value>content_(\d+)\.htm$</value>
+		</property>
+		<property name="titleExpression">
+			<value><![CDATA[<div  class="zhuti" > <h1> </h1> </div>]]></value>
+		</property>
+		<property name="contentExpression">
+			<value><![CDATA[<div class="wenzhang" id="text"> <p/> </div>]]></value>
+		</property>
+		<property name="timeExpression">
+			<value><![CDATA[<div class="z_left"><span></span></div>]]></value>
+		</property>
+		<property name="pageMaxLimit">
+			<value>5000</value>
+		</property>
+	</bean>
+
+
+	<bean id="tsCrawlerTask" class="com.zhitianweilai.qing.crawler.task.WebCrawlerTask">
+		<property name="website">
+			<value>tianshan</value>
+		</property>
+		<property name="language">
+			<value>CN.zh</value>
+		</property>
+		<property name="seedUrl">
+			<value>http://www.ts.cn/</value>
+		</property>
+		<property name="hostExpression">
+			<value>[a-z]*\.ts\.cn</value>
+		</property>
+		<property name="navPageExpression">
+			<value></value>
+		</property>
+		<property name="conPageExpression">
+			<value>content_(\d)+.htm$</value>
+		</property>
+		<property name="titleExpression">
+			<value><![CDATA[<div class="title" />]]></value>
+		</property>
+		<property name="contentExpression">
+			<value><![CDATA[<div class="txt link05"> <p/> <div is_filter='yes'/></div>]]></value>
+		</property>
+		<property name="timeExpression">
+			<value><![CDATA[<div class="info link16"><span is_filter='yes'/></div>]]></value>
+		</property>
+		<property name="pageMaxLimit">
+			<value>5000</value>
+		</property>
+	</bean>
+
+	<bean id="crawlerTaskApp"
+		class="com.lightning.crawler.controller.CrawlerTaskApp">
+		<property name="webCrawlerTasks">
+			<list>
+				<ref bean="cnxjCrawlerTask" />
+				<ref bean="iyaxinCrawlerTask" />
+				<ref bean="tsCrawlerTask" />
+			</list>
+		</property>
+	</bean>
+	
+</beans>

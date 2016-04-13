@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//smsdata/sms.txt=UTF-8
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/qing/askengine/manager=GBK
+encoding//src/main/java/com/qing/askengine/manager/DigitalCenterManager.java=UTF-8
+encoding//src/main/java/com/qing/askengine/manager/TibetDigitalCenterManager.java=UTF-8
+encoding//src/main/java/com/qing/askengine/manager/UyDigitalCenterManager.java=UTF-8
+encoding//src/main/java/com/qing/askengine/utils/TimeUtils.java=UTF-8
+encoding//src/test/java=UTF-8
+encoding//src/test/java/com/qing/guodu/ConsistentTopicManager.java=UTF-8
+encoding//thrift_files/ask.thrift=GBK
+encoding/<project>=UTF-8

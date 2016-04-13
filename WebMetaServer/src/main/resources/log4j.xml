@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GBK" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="default" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file" value="logs/ask.log" />
+		<param name="append" value="true" />
+		<param name="encoding" value="UTF-8" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="rpc" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file"
+			value="logs/rpc.log" />
+		<param name="append" value="true" />
+		<param name="encoding" value="UTF-8" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d [%X{remoteAddr}] %-5p %c{2} - %m%n" />
+		</layout>
+	</appender>
+
+	<logger name="rpc" additivity="false">
+		<level value="info" />
+		<appender-ref ref="rpc" />
+	</logger>
+
+	<root>
+		<level value="info" />
+		<appender-ref ref="default" />
+	</root>
+
+</log4j:configuration>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="ConsistentTopicTrend" >
+
+	<typeAlias alias="ConsistentTopicTrend" type="com.lightning.datacenter.word.model.ConsistentTopicTrendDO" />
+	
+	<resultMap id="ConsistentTopicTremdResultMap" class="ConsistentTopicTrend">
+		<result property="id" column="id" />
+		<result property="topicId" column="topic_id" />
+		<result property="timestamp" column="timestamp" />
+		<result property="value" column="value" />
+	</resultMap>
+
+	<insert id="addTrend" parameterClass="ConsistentTopicTrend" >
+		<![CDATA[
+			INSERT INTO tb_topic_trend (topic_id, timestamp, value)
+			VALUES(#topicId#, #timestamp#, #value#)
+		]]>
+	</insert>
+	
+	<select id="queryTrends" parameterClass="Map" resultMap="ConsistentTopicTremdResultMap">
+		<![CDATA[
+			SELECT * FROM tb_topic_trend
+			WHERE topic_id = #topicId# AND timestamp >= #startDate# AND timestamp <= #endDate#
+			ORDER BY timestamp ASC
+		]]>
+	</select>
+	
+</sqlMap>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="WebsiteCrawler" >
+
+	<typeAlias alias="WebsiteCrawler" type="com.lightning.webmetaserver.dataobject.WebsiteCrawlerDO" />
+	
+	<resultMap id="WebsiteCrawlerResultMap" class="WebsiteCrawler">
+		<result property="webid" column="id" />
+		<result property="website" column="website" />
+		<result property="websiteType" column="website_type" />
+		<result property="crawlerType" column="crawler_type" />
+		<result property="urlType" column="url_type" />
+		<result property="urlRule" column="url_rule" />
+		<result property="contentType" column="content_type" />
+		<result property="contentRule" column="content_rule" />
+		<result property="seeds" column="seeds" />
+		<result property="crawlerNum" column="crawler_num" />
+		<result property="crawlerSchedule" column="crawler_schedule" />
+	</resultMap>
+	
+	<insert id="addWebsiteCrawler" parameterClass="WebsiteCrawler" >
+		<![CDATA[
+			INSERT INTO tb_crawler_website
+				(website, website_type, crawler_type, 
+					url_type, url_rule, content_type, content_rule, seeds, crawler_num, crawler_schedule, create_time)
+			VALUES(#website#, #websiteType#,  #crawlerType#, 
+					#urlType#, #urlRule#, #contentType#, #contentRule#, #seeds#, #crawlerNum#, #crawlerSchedule#, UNIX_TIMESTAMP(NOW()));
+		]]>
+	</insert>
+		
+	<select id="queryWebsiteCrawler" parameterClass="String" resultMap="WebsiteCrawlerResultMap">
+		<![CDATA[
+			SELECT * FROM tb_crawler_website
+			WHERE website = #value#
+		]]>
+	</select>
+	
+	<select id="queryWebsiteCrawlers" parameterClass="Map" resultMap="WebsiteCrawlerResultMap">
+		<![CDATA[
+			SELECT * FROM tb_crawler_website
+			WHERE website_type = #websiteType#
+			LIMIT #start#, #limit#
+		]]>
+	</select>
+	
+	<select id="existWebsiteCrawler" parameterClass="Map" resultClass="java.lang.Integer">
+		<![CDATA[
+			SELECT count(*) FROM tb_crawler_website
+			WHERE website = #website# AND website_type = #websiteType#
+		]]>
+	</select>
+
+	<update id="updateWebsiteCrawler" parameterClass="Map" >
+		<![CDATA[
+			UPDATE tb_crawler_website
+			SET website = #website#, 
+				website_type = #websiteType#, 
+				crawler_type = #crawlerType#, 
+				url_type = #urlType#, 
+				url_rule = #urlRule#, 
+				content_type = #contentType#, 
+				content_rule = #contentRule#, 
+				seeds = #seeds#, 
+				crawler_num = #crawlerNum# 
+			WHERE id =#webid#
+		]]>
+	</update>
+
+	<delete id="removeWebsiteCrawlerByWebid" parameterClass="Map" > 
+		<![CDATA[
+			DELETE FROM tb_crawler_website
+			WHERE id=#webid# AND website_type = #websiteType#
+		]]>
+	</delete>
+	
+	
+	<select id="queryWebsiteCrawlersWithNonTimestamp" parameterClass="Map" resultMap="WebsiteCrawlerResultMap" >
+		<![CDATA[
+			SELECT * FROM tb_crawler_website
+			WHERE crawler_schedule != #crawlerSchedule# AND website_type = #websiteType#
+			LIMIT #start#, #limit#
+		]]>
+	</select>
+	
+	<update id="updateScheduleForWebsiteCrawler" parameterClass="Map">
+		<![CDATA[
+			UPDATE tb_crawler_website 
+			SET crawler_schedule = #crawlerSchedule#
+			WHERE id = #webid# AND website_type = #websiteType# AND crawler_schedule != #crawlerSchedule#
+		]]>
+	</update>
+	
+	<delete id="cleanupAllWebsiteCrawler"  > 
+		<![CDATA[
+			DELETE FROM tb_crawler_website
+		]]>
+	</delete>
+	
+</sqlMap>

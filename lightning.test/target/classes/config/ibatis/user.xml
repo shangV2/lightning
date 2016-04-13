@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="User" >
+
+	<typeAlias alias="User" type="com.lightning.test.model.UserDO" />
+	
+	<resultMap id="UserResultMap" class="User">
+		<result property="username" column="username" />
+		<result property="password" column="password" />
+	</resultMap>
+	
+	<select id="queryUserByUsername" parameterClass="String" resultClass="User">
+		<![CDATA[
+			SELECT * FROM tb_user WHERE username = #value:VARCHAR#;
+		]]>
+	</select>
+	
+	<insert id="insertUser" parameterClass="User">
+		<![CDATA[
+			INSERT INTO tb_user(username, password) VALUES(#username:VARCHAR#, #password:VARCHAR#); 
+		]]>
+	</insert>	
+	
+</sqlMap>

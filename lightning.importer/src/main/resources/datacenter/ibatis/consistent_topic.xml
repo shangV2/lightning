@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="ConsistentTopic" >
+
+	<typeAlias alias="ConsistentTopic" type="com.lightning.datacenter.word.model.ConsistentTopicDO" />
+	
+	<resultMap id="ConsistentTopicResultMap" class="ConsistentTopic">
+		<result property="id" column="id" />
+		<result property="topicId" column="topic_id" />
+		<result property="topicName" column="topic_name" />
+		<result property="type" column="type" />
+		<result property="words" column="words_json" />
+		<result property="startDate" column="start_date" />
+		<result property="endDate" column="end_date" />
+		<result property="percent" column="percent" /> 		
+	</resultMap>
+
+	<insert id="addTopic" parameterClass="ConsistentTopic" >
+		<![CDATA[
+			INSERT INTO tb_topic (topic_id, topic_name, type, words_json, start_date, end_date, percent)
+			VALUES(#topicId#, #topicName#, #type#, #words#, #startDate#, #endDate#, #percent#)
+		]]>
+	</insert>
+
+	<delete id="removeTopic" parameterClass="java.lang.Long" >
+		<![CDATA[
+			DELETE FROM tb_topic 
+			WHERE topic_id = #value#
+		]]>
+	</delete>
+	
+	<select id="existTopic" parameterClass="java.lang.Long" resultClass="java.lang.Long" >
+		<![CDATA[
+			SELECT topic_id FROM tb_topic
+			WHERE topic_id = #value# 
+			LIMIT 1
+		]]>
+	</select>
+	
+	<select id="queryTopicByTopicId" parameterClass="java.lang.Long" resultMap="ConsistentTopicResultMap" >
+		<![CDATA[
+			SELECT * FROM tb_topic
+			WHERE topic_id = #value#
+		]]>
+	</select>
+	
+	<select id="listTopics" parameterClass="Map" resultMap="ConsistentTopicResultMap">
+		<![CDATA[
+			SELECT * FROM tb_topic
+			WHERE type = #type# 
+			LIMIT #offset#, #limit#
+		]]>
+	</select>	
+	
+</sqlMap>

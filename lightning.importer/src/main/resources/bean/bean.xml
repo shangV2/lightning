@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd  
+    http://www.springframework.org/schema/context   
+    http://www.springframework.org/schema/context/spring-context-2.5.xsd  
+    http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd  
+    http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+	<context:annotation-config />
+		
+	<!-- 载入sql_map_config -->
+	<!-- 
+	<import resource="classpath:resources/datacenter/config/sql_map_config.xml" />
+	 -->
+	
+	<!-- 载入data_source -->
+	<import resource="classpath:datacenter/data_source.xml" />
+	
+	<!-- 载入dao -->
+	<import resource="classpath:datacenter/dao.xml" />			
+				
+	<!-- 载入service -->			
+					
+				
+	<bean id="serverConfiguration" class="com.lighting.rpc.core.model.ServerConfiguration">
+		<property name="serverPort" value="${rpc.server.port}" />
+	</bean>	
+
+	<!-- 
+	<bean id="berkeleryStoreConfiguration" class="com.lightning.common.kvstore.config.BerkeleyStoreConfiguration">
+		<property name="dbDirname" value="${storeengine.berkelery.dbdirname}"></property>
+		<property name="dbFilename" value="${storeengine.berkelery.dbfilename}"></property>
+	</bean>
+
+	<bean id="keyValueStoreEngine" class="com.lightning.common.kvstore.impl.BerkeleryStoreEngine">
+		<property name="configuration" ref="berkeleryStoreConfiguration">
+		</property>
+	</bean>
+	 -->
+
+	<bean id="sortedKeyValueStoreEngine" class="com.lightning.common.kvstore.impl.LevelDBStoreEngine" init-method="init"></bean>
+	
+	<bean id="hotwordManager" class="com.lightning.datacenter.manager.HotWordManager"></bean>
+	
+	<bean id="sensitiveWordManager" class="com.lightning.datacenter.manager.SensitiveWordManager"></bean>
+	
+	<bean id="consistentTopicManager" class="com.lightning.datacenter.manager.ConsistentTopicManager"></bean>
+	
+	<bean id="hotWebTrendManager" class="com.lightning.datacenter.manager.HotWebTrendManager"></bean>
+
+	<bean id="appController" class="com.lightning.datacenter.controller.DataCenterServerController" ></bean>			
+		
+</beans>

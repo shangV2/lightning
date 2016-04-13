@@ -1,0 +1,54 @@
+2016-04-12 21:30:32,188 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1a25848: display name [org.springframework.context.support.FileSystemXmlApplicationContext@1a25848]; startup date [Tue Apr 12 21:30:32 CST 2016]; root of context hierarchy
+2016-04-12 21:30:32,404 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:30:33,137 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:30:33,224 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@d4004b: display name [org.springframework.context.support.FileSystemXmlApplicationContext@d4004b]; startup date [Tue Apr 12 21:30:33 CST 2016]; root of context hierarchy
+2016-04-12 21:30:33,226 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:30:33,251 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:30:33,291 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@f93f1: display name [org.springframework.context.support.FileSystemXmlApplicationContext@f93f1]; startup date [Tue Apr 12 21:30:33 CST 2016]; root of context hierarchy
+2016-04-12 21:30:33,292 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:30:33,328 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:30:33,373 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@10736d9: display name [org.springframework.context.support.FileSystemXmlApplicationContext@10736d9]; startup date [Tue Apr 12 21:30:33 CST 2016]; root of context hierarchy
+2016-04-12 21:30:33,374 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:30:33,393 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:30:33,420 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1b92f0a: display name [org.springframework.context.support.FileSystemXmlApplicationContext@1b92f0a]; startup date [Tue Apr 12 21:30:33 CST 2016]; root of context hierarchy
+2016-04-12 21:30:33,421 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:30:33,437 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:30:33,466 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b494a6: display name [org.springframework.context.support.FileSystemXmlApplicationContext@b494a6]; startup date [Tue Apr 12 21:30:33 CST 2016]; root of context hierarchy
+2016-04-12 21:30:33,466 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:30:33,487 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:31:48,692 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1a25848: display name [org.springframework.context.support.FileSystemXmlApplicationContext@1a25848]; startup date [Tue Apr 12 21:31:48 CST 2016]; root of context hierarchy
+2016-04-12 21:31:48,809 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:31:49,014 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:31:49,094 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@d4004b: display name [org.springframework.context.support.FileSystemXmlApplicationContext@d4004b]; startup date [Tue Apr 12 21:31:49 CST 2016]; root of context hierarchy
+2016-04-12 21:31:49,095 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:31:49,118 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:31:49,155 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@f93f1: display name [org.springframework.context.support.FileSystemXmlApplicationContext@f93f1]; startup date [Tue Apr 12 21:31:49 CST 2016]; root of context hierarchy
+2016-04-12 21:31:49,155 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:31:49,174 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:31:49,217 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@10736d9: display name [org.springframework.context.support.FileSystemXmlApplicationContext@10736d9]; startup date [Tue Apr 12 21:31:49 CST 2016]; root of context hierarchy
+2016-04-12 21:31:49,218 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:31:49,237 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:31:49,271 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1b92f0a: display name [org.springframework.context.support.FileSystemXmlApplicationContext@1b92f0a]; startup date [Tue Apr 12 21:31:49 CST 2016]; root of context hierarchy
+2016-04-12 21:31:49,271 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:31:49,287 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:31:49,317 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b494a6: display name [org.springframework.context.support.FileSystemXmlApplicationContext@b494a6]; startup date [Tue Apr 12 21:31:49 CST 2016]; root of context hierarchy
+2016-04-12 21:31:49,317 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:31:49,335 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:38:13,021 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1a25848: display name [org.springframework.context.support.FileSystemXmlApplicationContext@1a25848]; startup date [Tue Apr 12 21:38:13 CST 2016]; root of context hierarchy
+2016-04-12 21:38:13,134 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:38:13,289 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:38:13,368 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@d4004b: display name [org.springframework.context.support.FileSystemXmlApplicationContext@d4004b]; startup date [Tue Apr 12 21:38:13 CST 2016]; root of context hierarchy
+2016-04-12 21:38:13,368 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:38:13,391 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:38:13,430 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@f93f1: display name [org.springframework.context.support.FileSystemXmlApplicationContext@f93f1]; startup date [Tue Apr 12 21:38:13 CST 2016]; root of context hierarchy
+2016-04-12 21:38:13,430 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:38:13,449 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:38:13,479 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@10736d9: display name [org.springframework.context.support.FileSystemXmlApplicationContext@10736d9]; startup date [Tue Apr 12 21:38:13 CST 2016]; root of context hierarchy
+2016-04-12 21:38:13,480 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:38:13,495 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:38:13,522 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@1b92f0a: display name [org.springframework.context.support.FileSystemXmlApplicationContext@1b92f0a]; startup date [Tue Apr 12 21:38:13 CST 2016]; root of context hierarchy
+2016-04-12 21:38:13,522 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:38:13,538 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]
+2016-04-12 21:38:13,564 - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@b494a6: display name [org.springframework.context.support.FileSystemXmlApplicationContext@b494a6]; startup date [Tue Apr 12 21:38:13 CST 2016]; root of context hierarchy
+2016-04-12 21:38:13,564 - Loading XML bean definitions from file [C:\Users\shujie\Desktop\Lightning-2014-1027\WebMetaServer\conf\application_context.xml]
+2016-04-12 21:38:13,586 - Loading XML bean definitions from URL [file:/C:/Users/shujie/Desktop/Lightning-2014-1027/WebMetaServer/target/classes/bean/bean.xml]

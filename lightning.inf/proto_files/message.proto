@@ -1,0 +1,21 @@
+
+
+package com.lightning.web.proto;
+
+option java_package = "com.lightning.web.proto";
+option java_outer_classname = "WebPageProto";
+
+message WebPageMessage {
+	
+	required string url = 1;
+	required bytes source = 2;
+	required bytes title = 3;
+	required string timestamp = 4;
+	required bytes content = 5;
+	
+};
+
+
+
+
+
